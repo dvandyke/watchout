@@ -2,9 +2,28 @@
 
 /* Note: an asteroid image is included in this repo.
 Feel free to use it if you like. */
+.scoreboard {
+	text-align: center;
+	margin: 0 auto;
+	font-weight: bold;
+}
 
 .container {
 	border: 1px solid black;
+	width: 750px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.asteroid{
+	background-image:  url("http://th02.deviantart.net/fs70/150/f/2011/116/d/6/shuriken_png_by_hidan_sama1408-d3exuvf.png");
+	background-size: 100% 100%;
+	position: absolute;
+}
+
+.mouse{
+	position: absolute;
+	background-color: orange;
 }
 
 .gameBoard{
